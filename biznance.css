@@ -1,0 +1,789 @@
+/*------Header-----*/
+       
+		header
+		{
+			width: 100%;
+			height: 26vh;
+			border: solid 1px;
+			margin: 2% 0 0 0;
+			background: url("../Images/Being-Shady-How-to-Use-Gradient-Color-in-UX-Design-6.jpg");
+			box-shadow:30px 8px 20px black;
+			
+
+		}
+		img
+		{
+			width: 20%;
+			height: 30vh;
+
+		}
+		a
+		{
+			
+			width: 20%;
+			height: 5vh;
+			float: right;
+		
+			font-size: 20px;
+			padding: 3% 0 4% 0;
+			color: black;
+		}
+		
+		.im
+		{
+			width: 10%;
+			height: 6vh;
+			margin: 0% 0% 2% 4%;
+			margin-top: 6%;
+		}
+		/*------Menu Bar----*/
+		.menuarea
+		{
+			width: 100%;
+			height: 14vh;
+			border: solid 2px;
+			background: darkblue;
+			color: white;
+			margin-top: 0.5%;
+			position: sticky;
+			top: 0;
+			left: 10%;
+
+
+		}
+		.menuarea a 
+		{
+         float: left;
+         color: white;
+         text-align: center;
+		 margin-left: -40px;
+         padding: 35px 0px 0px 5px;
+         text-decoration: none;
+         font-size: 20px;
+         font-family: "arial";
+}
+         .menuarea a:hover 
+         {
+             
+             color: wheat;
+        }
+		.div1
+		{
+			width: 30%;
+			height: 13.8vh;
+            border: solid 1px;
+            float: right;
+            border-radius: 50px 4px 0 0;
+            background: orange;
+           
+
+		}
+       #link
+       {
+       	font-size: 25px;
+       	padding: 28px 15px 15px 100px;
+       	
+       	width: 50%;
+        }
+        /*--------body-----*/
+        .container
+        {
+        	width: 100%;
+        	height: 80vh;
+        	border: solid 0px;
+        	float: left;
+        }
+
+
+        
+
+       
+        	
+
+        }
+       .font1
+        {
+        	font-size: 40px;
+        	padding: 5% 0 0 20px;
+        	font-family: "arial";
+
+        }
+        p
+        {
+        	padding-left: 50px;
+        	font-size: 18px;
+        	font-family: "arial";
+            line-height: 150%;
+        	
+
+        }
+        .container input
+        {
+        	background: orange;
+        	color: white;
+        	border: solid 0;
+        	width: 15%;
+        	height: 10vh;
+        	margin: 20px 0 0 70px ;
+        	font-size: 20px;
+        	font-family: "arial";
+        	border-radius: 10% 10% 10% 10%;
+
+
+        }
+        input:hover
+        {
+          background: darkblue;
+          box-shadow:5px 5px 15px grey;
+          transition: 1s;
+          cursor: pointer;
+          color: wheat;
+        }
+        .features
+        {
+        	
+           margin: -280px -250px 0 0px;
+       	border: solid 0px;
+       	display: inline-block;
+        width: 70%;
+        height: 50vh;
+        padding: 0px 0px 0px 80px;
+        float: right;
+        }
+       .features img
+       {
+       	width: 95%;
+
+       	float: left;
+       }
+       .features a
+       {
+       	font-size: 20px;
+       text-align: center;
+       	width: auto;
+       	color: black;
+       	font-weight: bold;
+       	font-family: "arial";
+       	padding-right: 10px ;
+       
+       	text-decoration: none;
+       }
+       	 .features a:hover 
+         {
+             
+             color: orange;
+             display: inline-block;
+        }
+        .disc
+         {
+         	width: 100%;
+         	height: 122vh;
+         	border: solid 2px;
+         	margin-top: 40%;
+
+        	background: url("../Images/Transformation-of-Digital-Banking-Trends-1024x683-1.jpg");
+            background-attachment: fixed;
+         }
+       
+        .disc div
+         {
+         	width: 50%;
+         	height: 100vh;
+         	float: right;
+         	border: solid 0px;
+         	
+         	background:orange;
+         }
+         .disc h1
+         {
+         	font-size: 30px;
+         	font-family: "arial";
+         	color: white;
+         	font-weight: bold;
+         	padding: 50px 0 0 100px;
+
+
+         }
+         .disc h2
+         {
+             font-size: 45px;
+             font-family: "arial";
+         	color: white;
+         	font-weight: bold;
+         	padding:  0 0 0 70px;
+
+         }
+         .disc p
+         {
+             font-size: 20px;
+             font-family: "arial";
+         	color: white;
+         	font-weight: normal;
+         	padding:  0 0 0 70px;
+
+         }
+         .btn
+         
+         	{
+        	background: blue;
+        	color: white;
+        	border: solid 0;
+        	width: 130%;
+        	height: 8vh;
+        	margin-left: -450px;
+           
+        	font-size: 18px;
+        	font-family: "arial";
+        	border-radius: 10% 10% 10% 10%;
+
+
+        }
+        .btn:hover
+        {
+          background: orange;
+
+          box-shadow:5px 5px 15px grey;
+          transition: 1s;
+          cursor: pointer;
+          color: wheat;
+        }
+         /*--------footer-----*/
+        .disc footer
+        {
+        	width: 87.3%;
+        	height: 12.7vh;
+        	border: solid 0px;
+        	margin-top: 47%;
+        	background: darkblue;
+        	box-shadow:30px 8px 20px black;
+        	font-size: 25px;
+        	color: white;
+        	padding: 4.5% 0 0 13%;
+        	font-family: "arial";
+        	font-weight: bold;
+
+        } 
+        .btn1
+         
+         	{
+        	background: orange;
+        	color: white;
+        	border: solid 0;
+        	width: 78%;
+        	height: 8vh;
+        	margin: -50px 0 0 300px;
+            float: right;
+           
+        	font-size: 18px;
+        	font-family: "arial";
+        	border-radius: 10% 10% 10% 10%;
+
+
+        }
+        .btn1:hover
+        {
+          background: blue;
+
+          box-shadow:5px 5px 15px grey;
+          transition: 1s;
+          cursor: pointer;
+          color: wheat;
+        }
+
+
+
+
+        /*--------Services-------*/
+         .heading
+         {
+            width: 100%;
+            height: 40vh;
+            border: solid 2px;
+            background: url("../Images/istockphoto-1304484797-612x612.jpg") center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: fixed;
+            opacity: 0.7;
+
+         }
+         p::before
+         {
+          z-index: -2;  
+         }
+         
+         .heading p
+         {
+            font-size: 40px;
+            font-family: "arial";
+            font-weight: bold;
+            color: white;
+            padding: 3% 0 0 6%;
+         }
+        .service
+        {
+            width: 100%;
+            height:130vh;
+            border: solid 0px;
+            text-align: center;
+            padding: 0 0 2% 2%;
+            font-size: 25px;
+             font-family: "arial";
+            font-weight: bold;
+            
+            margin-top: 5%;
+            
+            
+        }
+
+        .service h1
+        {
+            font-family: "arial";
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+             padding-top: 10%;
+           
+
+
+
+        }
+        .service1
+        {
+            width: 25%;
+            height: 40vh;
+            border: solid 0px;
+            float: left;
+            margin: 2% 0 0 6%;
+           
+        }
+        .service1 img
+        {
+           width: 15%;
+            height: 10vh;
+        }
+        .service1 span:hover
+        {
+            color: orange;
+            transition: 1s;
+            cursor: default;
+        }
+        .para
+        {
+            font-size: 20px;
+            font-family: "arial";
+            font-weight: normal;
+
+        }
+        .service2
+        {
+            width: 25%;
+            height: 40vh;
+            border: solid 0px;
+            float: left;
+            margin: 2% 0 0 6%;
+            
+
+            
+        }
+        .service2 img
+        {
+           width: 15%;
+            height: 10vh;
+        }
+        .service2 span:hover
+        {
+            color: orange;
+            transition: 1s;
+            cursor: default;
+        }
+        .para
+        {
+            font-size: 20px;
+            font-family: "arial";
+            font-weight: normal;
+
+        }
+        .emptyarea
+        {
+            width: 100%;
+            height: 100vh;
+            border: solid 20x;
+            background: url("../Images/Transformation-of-Digital-Banking-Trends-1024x683-1.jpg" );
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 99.5%;
+             
+           
+            
+        }
+        .emptyarea div
+        {
+            width: 50%;
+            height: 100vh;
+            float: left;
+            border: solid 0px;
+            
+            background:orange;
+        }
+         .emptyarea h1
+         {
+            font-size: 30px;
+            font-family: "arial";
+            color: white;
+            font-weight: bold;
+            padding: 50px 0 0 100px;
+
+
+         }
+         .emptyarea h2
+         {
+             font-size: 45px;
+             font-family: "arial";
+            color: white;
+            font-weight: bold;
+            padding:  0 0 0 70px;
+
+         }
+         .emptyarea p
+         {
+             font-size: 20px;
+             font-family: "arial";
+            color: white;
+            font-weight: normal;
+            padding:  0 0 0 70px;
+            line-height: 130%;
+
+         }
+         .emptyarea1
+        {
+            width: 100%;
+            height: 100vh;
+            border: solid 20x;
+            background: url("../Images/BlogPost-aug18.png");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+             
+           
+            
+        }
+        .emptyarea1 div
+        {
+            width: 50%;
+            height: 100vh;
+            float: right;
+            border: solid 0px;
+            
+            background:darkblue;
+        }
+         .emptyarea1 h1
+         {
+            font-size: 30px;
+            font-family: "arial";
+            color: white;
+            font-weight: bold;
+            padding: 50px 0 0 100px;
+
+
+         }
+         .emptyarea1 h2
+         {
+             font-size: 45px;
+             font-family: "arial";
+            color: white;
+            font-weight: bold;
+            padding:  0 0 0 70px;
+
+         }
+         .emptyarea1 p
+         {
+             font-size: 20px;
+             font-family: "arial";
+            color: white;
+            font-weight: normal;
+            padding:  0 0 0 70px;
+            line-height: 130% ;
+
+         }
+         .btn3
+         {
+
+            background: orange;
+            color: white;
+            border: solid 0;
+            width: 130%;
+            height: 8vh;
+            margin-left: -450px;
+           
+            font-size: 18px;
+            font-family: "arial";
+            border-radius: 10% 10% 10% 10%;
+
+
+        }
+        .btn3:hover
+        {
+          background: darkblue;
+
+          box-shadow:5px 5px 15px grey;
+          transition: 1s;
+          cursor: pointer;
+          color: wheat;
+        }
+         
+
+         footer
+        {
+            width: 87.5%;
+            height: 12.7vh;
+            border: solid 0px;
+            
+            background: darkblue;
+            box-shadow:30px 8px 20px black;
+            font-size: 25px;
+            color: white;
+            padding: 4.5% 0 0 13%;
+            font-family: "arial";
+            font-weight: bold;
+            margin-top: 1%;
+
+
+        } 
+
+
+        /*-----------About Us-------*/
+            .container2
+        {
+            width: 100%;
+            height: 90vh;
+            border: solid 0px;
+            float: left;
+            background: linear-gradient(black,skyblue);
+           
+        }
+
+
+        
+
+        .container2 h1 
+        {
+            font-size: 40px;
+            font-family: "arial";
+            padding: 8% 0 0 80px;
+            line-height: 40%;
+
+            
+            
+
+        }
+       .font1
+        {
+            font-size: 40px;
+            padding: 5% 0 0 80px;
+            font-family: "arial";
+
+        }
+        p
+        {
+            padding-left: 80px;
+            font-size: 18px;
+            font-family: "arial";
+            line-height: 120%;
+            
+
+        }
+        .container2 input
+        {
+            background: orange;
+            color: white;
+            border: solid 0;
+            width: 50%;
+            height: 8vh;
+            margin: 0% 0 0% -350% ;
+            font-size: 20px;
+            font-family: "arial";
+            border-radius: 10% 10% 10% 10%;
+
+
+        }
+        input:hover
+        {
+          background: darkblue;
+          box-shadow:5px 5px 15px grey;
+          transition: 1s;
+          cursor: pointer;
+          color: wheat;
+        }
+         .p1
+         {
+            font-family: "arial";
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 80px;
+            line-height: 120%;
+
+         }
+         
+         .container2 div
+         {
+            width: 40%;
+            height: 70vh;
+            float: right;
+            border: solid 0px;
+            margin-left: 40%;
+            margin-right: 10%;
+            margin-top: -35%;
+            background: url(../Images/private-banking.jpeg);
+            background-size: 123%;
+            background-repeat: no-repeat;
+
+         }
+        .milestone
+        {
+            width: 100%;
+            height: 140vh;
+            border: solid 0px;
+           background:url(../Images/payment-systems.jpg) ;
+           background-size: 99%;
+           background-attachment: fixed;
+           background-repeat: no-repeat;
+          margin-top: 50%;
+                     }
+        .milestone div
+        {
+            width: 50%;
+            height: 120vh;
+            float: left;
+            border: solid 0px;
+             margin-top: 5%;
+            background:orange;
+
+        }
+         .milestone h1
+         {
+            font-size: 40px;
+            font-family: "arial";
+            color: white;
+            font-weight: bold;
+            padding: 15% 0 0 10%;
+
+            
+            
+         }
+         
+         
+         .milestone p
+         {
+             font-size: 25px;
+             font-family: "arial";
+            color: white;
+            font-weight: normal;
+            padding:  0 0 0 70px;
+           line-height: 130%;
+           
+
+        }
+        .team
+        {
+            width: 100%;
+            height: 100vh;
+            border: solid 0px;
+            
+           
+        }
+        .team h1
+        {
+            font-size: 40px;
+            font-family: "arial";
+            font-weight: bold;
+            padding-left: 45%;
+
+        }
+       .dv1
+       {
+
+         width: 10%;
+         height: 10vh;
+         border: solid 0px;
+         margin-top: 8%;
+         margin-left: 15%;
+         background: url(../Images/unknown-person-female-silhouette-260nw-217557157.jpg);
+         background-size: 99%;
+         background-repeat: no-repeat;
+         font-size: 16px;
+         font-family: "arial";
+         font-weight: bold;
+         padding: 12% 0 0 2%;
+ }      
+
+
+      .dv2
+       {
+         width: 10%;
+         height: 8vh;
+         border: solid 0px;
+         float: right;
+         margin-right:57%;
+         margin-top: -17%;
+         background: url(../Images/person-gray-photo-placeholder-woman-260nw-1229629960.jpg);
+         background-size: 100%;
+         background-repeat: no-repeat;
+         font-size: 16px;
+         font-family: "arial";
+         font-weight: bold;
+         padding: 13% 0 0 2%;
+
+                
+
+
+    }
+     .dv3
+       {
+         width: 10%;
+         height: 10vh;
+         border: solid 0px;
+         float: right;
+         margin-top: -17%;
+         margin-right: 40%;
+          background: url(../Images/silhouette-studio-shot-isolated-on-260nw-246672304.jpg);
+         background-size: 100%;
+         background-repeat: no-repeat;
+          font-size: 16px;
+         font-family: "arial";
+         font-weight: bold;
+         padding: 13% 0 0 2%;
+        }
+   
+        .dv4
+       {
+         width: 10%;
+         height: 10vh;
+         border: solid 0px;
+         float: right;
+         margin-right: -30%;
+         margin-top: -17%;
+         background: url(../Images/img.png );
+         background-size: 90%;
+         background-repeat: no-repeat;
+          font-size: 16px;
+         font-family: "arial";
+         font-weight: bold;
+         padding: 13% 0 0 2%;
+
+
+        }
+
+
+
+        /*--------Contact Us------*/
+        .contact
+        {
+            width: 100%;
+            height: 50vh;
+            border: solid 2px;
+        }
+
+
+
+
+
