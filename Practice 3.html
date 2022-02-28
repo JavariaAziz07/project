@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		.header
+		{
+			width: 100%;
+			height: 30vh;
+			border: solid 2px;
+
+		}
+		.header div
+		{
+			width: 70%;
+			height: 20vh;
+			border: solid 2px;
+			margin: 2% 0 0 15%;
+			background: grey; 
+		    
+		}
+		.header2
+		{
+			width: 100%;
+			height: 40vh;
+			border: solid 2px;
+		}
+		.header2 p
+		{
+			font-size: 20px;
+			font-weight: bolder;
+			font-family: "arial";
+			color: darkblue;
+			padding: 0 2% 0% 2%;
+			float: left;
+
+		}
+		.text
+		{
+			margin: 2% 0 0 50%;
+			height: 3vh;
+		}
+		.number
+		{
+		     box-shadow: inset 5% 5% 3% 3% black;
+		     border-radius: 30px ;
+		     height: 3vh;
+		}
+		.button
+		{
+		     border-radius: 30px ;
+		     height: 4vh;
+		     width: 8%;
+		}
+		.l1
+		{
+			width: 4%;
+			height: 4.5vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+			text-align: center;
+			padding-top: 2px;
+			color: red;
+
+		}
+		.l2
+		{
+			text-align: center;
+			width: 3.7%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0;
+			color: green;
+
+		}
+		.l3
+		{
+			text-align: center;
+			width: 6.2%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+            color: blue;
+		}
+		.l4
+		{
+			text-align: center;
+			width: 4%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0px;
+			
+
+		}
+		.l5
+		{
+			text-align: center;
+			width: 5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+            color: darkpink;
+		}
+		.l6
+		{
+			text-align: center;
+			width: 3.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0px;
+			color: purple;
+
+		}
+		.l7
+		{
+			text-align: center;
+			width: 6.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+            color: darkblue;
+		}
+		.l8
+		{
+			text-align: center;
+			width: 3%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0px;
+			color: chocolate;
+
+		}
+		.l9
+		{
+			text-align: center;
+			width: 6.9%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+            color: blue;
+		}
+		.l10
+		{
+			text-align: center;
+			width: 3%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0px;
+			color: green;
+
+		}
+		.l11
+		{
+			text-align: center;
+			width: 4.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+            color: darkpink;
+		}
+		.l12
+		{
+			text-align: center;
+			width: 3.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0px;
+			
+
+		}
+		.l13
+		{
+			text-align: center;
+			width: 4.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+            color: red;
+		}
+		.l14
+		{
+			text-align: center;
+			width: 3.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border: solid 0px;
+			
+           
+		}
+		.l15
+		{
+			text-align: center;
+			width: 3.5%;
+			height: 4vh;
+			border: solid 1px;
+			display: inline-block;
+			margin: 1% 0 0 0.1%;
+			border-top: solid 0px;
+			border-bottom: solid 0px;
+			border-left: solid 1px;
+			border-right: solid 1px;
+
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="header">
+	<div></div>
+</div>
+<div class="header2">
+	<p>guardian.co.uk</p>
+	<input class="text" type="text" name="" placeholder="Search here">
+	<input class="number"type="number" name="" min="" max="" placeholder="Culture">
+	<input class="button" type="submit" value="Search" name="">
+	<div class="l1">News</div>
+	<div class="l2">Sports</div>
+	<div class="l3">Comments</div>
+	<div class="l4">Culture</div>
+	<div class="l5">Business</div>
+	<div class="l6">Money</div>
+	<div class="l7">Life & Style</div>
+	<div class="l8">Travel</div>
+	<div class="l9">Environment</div>
+	<div class="l10">Tv</div>
+	<div class="l11">Blogs</div>
+	<div class="l12">Data</div>
+	<div class="l13">Mobile</div>
+	<div class="l14">Offers</div>
+	<div class="l15">Jobs</div>
+
+</div>
+</body>
+</html>
